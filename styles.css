@@ -26,7 +26,7 @@ html, body {
     border: 5px solid black;
     /* margin: calc( 10px * var(--grid-size)); */
     max-width: 80vh;
-    margin: 40px auto;
+    margin: 0px auto;
     padding: 0px;
 
 }
@@ -36,4 +36,21 @@ html, body {
     aspect-ratio: 1/1;
     flex: 0 1 calc((100% / var(--grid-size)) - 0px);
     flex-shrink: 1;
+}
+
+.hover {
+    background-color: black;
+}
+
+.btn-wrap {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+button {
+    width: 200px;
+    padding: 10px 5px;
+    font-size: 28px;
+    border-radius: 10px;
 }
